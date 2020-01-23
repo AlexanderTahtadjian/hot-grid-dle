@@ -34,7 +34,8 @@ figure {
 figcaption {
   position: absolute;
   bottom: .5rem;
-  left: 1rem;
+  left: .5rem;
+  max-width: 15em;
   color: #fff;
   background-color: #000;
   border-radius: 4px;

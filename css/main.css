@@ -10,7 +10,7 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+  text-size-adjust: 100%; font-family: 'Roboto Slab', serif;
 }
 
 *, *::before, *::after {
@@ -28,8 +28,14 @@ body {
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figcaption {
-  padding: .5em;
+  position: absolute;
+  bottom: .5rem;
+  left: 1rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
 }
